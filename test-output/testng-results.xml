@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Completed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Enter into frame]]>
+    </line>
+    <line>
+      <![CDATA[New Emp Added]]>
+    </line>
+    <line>
+      <![CDATA[Exit from frame]]>
+    </line>
+    <line>
+      <![CDATA[Logout Completed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-14T12:26:59Z" name="Suite1" finished-at="2022-12-14T12:27:15Z" duration-ms="16166">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T12:26:59Z" name="Regression1" finished-at="2022-12-14T12:27:15Z" duration-ms="16166">
+      <class name="framework.testscript.TC001">
+        <test-method signature="tc001()[pri:0, instance:framework.testscript.TC001@29f7cefd]" started-at="2022-12-14T17:56:59Z" name="tc001" finished-at="2022-12-14T17:57:07Z" duration-ms="8152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Completed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- framework.testscript.TC001 -->
+      <class name="framework.testscript.TC002">
+        <test-method signature="tc002()[pri:0, instance:framework.testscript.TC002@660acfb]" started-at="2022-12-14T17:57:07Z" name="tc002" finished-at="2022-12-14T17:57:15Z" duration-ms="7986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Enter into frame]]>
+            </line>
+            <line>
+              <![CDATA[New Emp Added]]>
+            </line>
+            <line>
+              <![CDATA[Exit from frame]]>
+            </line>
+            <line>
+              <![CDATA[Logout Completed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+      </class> <!-- framework.testscript.TC002 -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

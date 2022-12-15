@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="framework.testscript.EXP_02">
+        <methods>
+          <include name="logout"/>
+          <include name="deletemp"/>
+          <include name="login"/>
+          <include name="addNewEmp"/>
+        </methods>
+      </class> <!-- framework.testscript.EXP_02 -->
+      <class name="framework.testscript.EXP_06">
+        <methods>
+          <include name="TC002"/>
+          <include name="Startup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- framework.testscript.EXP_06 -->
+      <class name="framework.testscript.EXP_05">
+        <methods>
+          <include name="TC001"/>
+          <include name="Startup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- framework.testscript.EXP_05 -->
+      <class name="framework.testscript.EXP_03">
+        <methods>
+          <include name="deleteEmp"/>
+          <include name="logout"/>
+          <include name="Newemp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- framework.testscript.EXP_03 -->
+      <class name="framework.testscript.EXP_04">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- framework.testscript.EXP_04 -->
+      <class name="framework.testscript.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- framework.testscript.TC001 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
