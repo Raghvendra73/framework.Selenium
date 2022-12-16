@@ -35,12 +35,12 @@
       <![CDATA[Application closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-14T12:26:59Z" name="Suite1" finished-at="2022-12-14T12:27:15Z" duration-ms="16166">
+  <suite started-at="2022-12-15T19:37:38Z" name="Suite1" finished-at="2022-12-15T19:38:11Z" duration-ms="32269">
     <groups>
     </groups>
-    <test started-at="2022-12-14T12:26:59Z" name="Regression1" finished-at="2022-12-14T12:27:15Z" duration-ms="16166">
+    <test started-at="2022-12-15T19:37:38Z" name="Regression1" finished-at="2022-12-15T19:38:11Z" duration-ms="32269">
       <class name="framework.testscript.TC001">
-        <test-method signature="tc001()[pri:0, instance:framework.testscript.TC001@29f7cefd]" started-at="2022-12-14T17:56:59Z" name="tc001" finished-at="2022-12-14T17:57:07Z" duration-ms="8152" status="PASS">
+        <test-method signature="tc001()[pri:0, instance:framework.testscript.TC001@29f7cefd]" started-at="2022-12-16T01:07:38Z" name="tc001" finished-at="2022-12-16T01:07:51Z" duration-ms="13134" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
@@ -58,7 +58,7 @@
         </test-method> <!-- tc001 -->
       </class> <!-- framework.testscript.TC001 -->
       <class name="framework.testscript.TC002">
-        <test-method signature="tc002()[pri:0, instance:framework.testscript.TC002@660acfb]" started-at="2022-12-14T17:57:07Z" name="tc002" finished-at="2022-12-14T17:57:15Z" duration-ms="7986" status="PASS">
+        <test-method signature="tc002()[pri:0, instance:framework.testscript.TC002@660acfb]" started-at="2022-12-16T01:07:51Z" name="tc002" finished-at="2022-12-16T01:08:11Z" duration-ms="19105" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
